@@ -1,7 +1,6 @@
 import IconLogo from "../../assets/img/tapkonek-icon.png";
 import Logo from "../../assets/img/tapkonek-logo.png";
 import Placeholder from "../../assets/img/cover-image1.jpg";
-import Placeholder2 from "../../assets/img/cover-image.png";
 
 const Main = () => {
   return (
