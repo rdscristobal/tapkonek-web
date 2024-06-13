@@ -1,0 +1,61 @@
+/*---------------------------------------
+  STEP ONE              
+-----------------------------------------*/
+.blue-section {
+    background-color: var(--primary-color);
+    position: relative;
+}
+
+.blue-section .ratio {
+    border-radius: var(--border-radius-medium);
+}
+
+.blue-section h6 {
+    color: var(--secondary-color);
+}
+
+/*---------------------------------------
+  STEP TWO              
+-----------------------------------------*/
+.gray-section {
+    background-color: var(--tertiary-color);
+    position: relative;
+}
+
+.gray-section .ratio {
+    border-radius: var(--border-radius-medium);
+}
+
+.gray-section h6 {
+    color: var(--secondary-color);
+}
+
+
+
+
+.product-block-info {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 30px;
+}
+
+.product-block-info .badge {
+    margin: auto;
+    top: 2px;
+    bottom: 0;
+}
+
+.custom-image {
+    border-radius: var(--border-radius-medium);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.inverted {
+    filter: brightness(0) invert(1);
+}
